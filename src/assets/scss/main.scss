@@ -1,0 +1,17 @@
+
+// BOOTSTRAP & ANTD
+@import '~bootstrap/scss/bootstrap-grid.scss', '~bootstrap/scss/bootstrap.scss';
+@import '~antd/dist/antd.css';
+
+// UTILS
+@import './utils/variables', './utils/mixins';
+
+// NORMALIZE
+@import './core/normalize';
+
+
+// COMPONENTS
+@import './component/button', './component/iframe', './component/video', './component/layout';
+
+// PAGES
+@import './pages/home';

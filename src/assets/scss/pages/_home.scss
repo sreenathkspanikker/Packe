@@ -1,0 +1,27 @@
+.app-home{
+    @include flex(center, center);
+    .box{
+        text-align: center;
+        .app-logo{
+            width: 350px;
+            display: block;
+            margin: 0 auto;
+        }
+        h2{
+            @include font-family($font-main, 1.5rem, #1a1a1a, 900, 1);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            top: -2rem;
+        }
+        h1{
+            @include font-family($font-main, 4rem, #1a1a1a, 800, 1);
+            text-transform: uppercase;
+            letter-spacing: 1.5rem;
+            padding: 1rem 2rem;
+            border-top: 3px solid #1a1a1a;
+            border-bottom: 3px solid #1a1a1a;
+        }
+    }
+
+}

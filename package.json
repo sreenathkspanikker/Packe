@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Packe",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -14,8 +14,15 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "antd": "^4.7.3",
+    "bootstrap": "^4.5.3",
     "gatsby": "^2.24.85",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sass": "^2.3.21",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "node-sass": "^4.14.1",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
@@ -23,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": ""
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
