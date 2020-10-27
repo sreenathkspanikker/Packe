@@ -14,11 +14,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.4.0",
     "antd": "^4.7.3",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.24.85",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sass": "^2.3.21",
+    "gatsby-plugin-svgr-svgo": "^1.0.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",

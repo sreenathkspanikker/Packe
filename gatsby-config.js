@@ -8,14 +8,7 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-sass`,
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /assets/
-        }
-      }
-    },
+    `gatsby-plugin-svgr-svgo`,
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
